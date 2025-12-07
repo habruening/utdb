@@ -1,0 +1,11 @@
+{
+  "files.exclude": {
+    ".calva": true,
+    ".clj-kondo": true,
+    ".cpcache": true,
+    ".lsp": true,
+    ".nrepl-port": true,
+    ".portal": true,
+    ".vscode": true
+  }
+}
