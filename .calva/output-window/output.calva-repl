@@ -1,0 +1,328 @@
+; This is the Calva REPL Window.
+; It's just a file, really, with some special treatment from Calva.
+; Use it as a REPL input prompt if you like. (When the REPL is connected.)
+; TIPS: The keyboard shortcut `ctrl+alt+o r` shows and focuses this window
+; Please see 
+
+
+
+https://calva.io/repl-window/ for more info.
+; Happy coding! ♥️
+
+; TIPS: As with any Clojure file when the REPL is connected:
+; - `alt+enter` evaluates the current top level form.
+; - `ctrl+enter` evaluates the current form.
+; Special for this file:
+; - `alt+up` and `alt+down` traverse up and down the REPL command history
+;    when the cursor is after the last contents at the prompt
+; 
+; See also the Calva Inspector: https://calva.io/inspector/
+
+PLEASE NOTE
+We will update the default location of this file.
+The new default location will be
+  "<projectRootPath>/.calva/repl.calva-repl"
+For now the legacy path is used by default.
+To give yourself a smooth transition, you can opt in
+to the change, by configuring this setting as false:
+  "calva.useLegacyReplWindowPath"
+and then add "**/.calva/repl.calva-repl" to your ".gitignore" file.
+
+
+This file is configured as the output destination for all REPL output.
+You can configure this with the setting:
+  "calva.outputDestinations"
+
+
+; Jacking in...
+; Connecting using "deps.edn + Figwheel Main" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: (cd /home/hartmut/fjt/utdb; clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.5.1"},cider/cider-nrepl {:mvn/version,"0.58.0"},cider/piggieback {:mvn/version,"0.6.1"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware cider.piggieback/wrap-cljs-repl]")
+; Using host:port localhost:34183 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: deps.edn + Figwheel Main...
+; There are no figwheel build files (.cljs.edn) in the project directory.
+; Connection to Figwheel Main aborted.
+; Error while connecting cljs REPL: Aborted
+; Jack-in done.
+clj꞉user꞉> 
+3
+3
+clj꞉user꞉> 
+3
+3
+clj꞉user꞉> 
+(System/exit 1)
+; nREPL Connection was closed
+(System/exit 1); Jacking in...
+; TypeError: Cannot read properties of undefined (reading 'label')
+; Aborting jack-in.
+; Jacking in...
+; Connecting using "deps.edn + Figwheel Main" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: (cd /home/hartmut/fjt/utdb; clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.5.1"},cider/cider-nrepl {:mvn/version,"0.58.0"},cider/piggieback {:mvn/version,"0.6.1"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware cider.piggieback/wrap-cljs-repl]")
+; Using host:port localhost:46625 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: deps.edn + Figwheel Main...
+; There are no figwheel build files (.cljs.edn) in the project directory.
+; Connection to Figwheel Main aborted.
+; Error while connecting cljs REPL: Aborted
+; Jack-in done.
+clj꞉user꞉> 
+3
+clj꞉frontend.ut-table.main꞉> 
+; Syntax error compiling at (src/frontend/ut_table/main.cljs:6:1).
+; No such namespace: js
+clj꞉frontend.ut-table.main꞉> 
+3
+3
+clj꞉frontend.ut-table.main꞉> 
+(System/exit 1)
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn + Figwheel Main" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: (cd /home/hartmut/fjt/utdb; clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.5.1"},cider/cider-nrepl {:mvn/version,"0.58.0"},cider/piggieback {:mvn/version,"0.6.1"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware cider.piggieback/wrap-cljs-repl]")
+; Jacking in...
+; Connecting using "deps.edn + Figwheel Main" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: (cd /home/hartmut/fjt/utdb; clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.5.1"},cider/cider-nrepl {:mvn/version,"0.58.0"},cider/piggieback {:mvn/version,"0.6.1"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware cider.piggieback/wrap-cljs-repl]")
+; Using host:port localhost:33399 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: deps.edn + Figwheel Main...
+; Starting cljs repl for: deps.edn + Figwheel Main...
+; CLJS REPL ready to connect. Please, start your ClojureScript app.
+;   Open the app on this URL: http://localhost:9500
+;   The CLJS REPL will connect when your app is running.
+; Syntax error compiling at (src/frontend/ut_table/main.cljs:6:1).
+; No such namespace: js
+clj꞉frontend.ut-table.main꞉> 
+nil
+clj꞉frontend.ut-table.main꞉> 
+#'frontend.ut-table.main/what-kind?
+clj꞉frontend.ut-table.main꞉> 
+; Syntax error compiling at (src/frontend/ut_table/main.cljs:6:1).
+; No such namespace: js
+clj꞉frontend.ut-table.main꞉> 
+3
+clj꞉frontend.ut-table.main꞉> 
+; Syntax error compiling at (src/frontend/ut_table/main.cljs:9:1).
+; No such namespace: js
+clj꞉frontend.ut-table.main꞉> 
+3
+clj꞉frontend.ut-table.main꞉> 
+; Syntax error compiling at (src/frontend/ut_table/main.cljs:9:1).
+; Unable to resolve symbol: alert in this context
+clj꞉frontend.ut-table.main꞉> 
+3
+3
+clj꞉frontend.ut-table.main꞉> 
+(js/alert "
+          ")
+; Syntax error compiling at (.calva/output-window/output.calva-repl:147:1).
+; No such namespace: js
+clj꞉frontend.ut-table.main꞉> 
+; Syntax error compiling at (src/frontend/ut_table/main.cljs:11:1).
+; Unable to resolve symbol: clojure- in this context
+clj꞉frontend.ut-table.main꞉> 
+"1.12.0"
+clj꞉frontend.ut-table.main꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: deps.edn...
+; Starting cljs repl for: deps.edn + Figwheel Main...
+; Execution error (ExceptionInfo) at figwheel.main/start* (main.cljc:2291).
+; A build with id "ut_table" is already running.
+; Cljs builds started
+; Creating cljs repl session...
+; Connecting cljs repl: deps.edn...
+; Cljs builds started
+3
+clj꞉frontend.ut-table.main꞉> 
+"1.12.0"
+clj꞉frontend.ut-table.main꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: deps.edn...
+; Cljs builds started
+"1.12.0"
+clj꞉frontend.ut-table.main꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: deps.edn...
+; Cljs builds started
+"1.12.0"
+clj꞉frontend.ut-table.main꞉> 
+"1.12.0"
+clj꞉frontend.ut-table.main꞉> 
+(System/exit 1)
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn + Figwheel Main" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: (cd /home/hartmut/fjt/utdb; clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.5.1"},cider/cider-nrepl {:mvn/version,"0.58.0"},cider/piggieback {:mvn/version,"0.6.1"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware cider.piggieback/wrap-cljs-repl]")
+; Using host:port localhost:43621 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: deps.edn + Figwheel Main...
+; Starting cljs repl for: deps.edn + Figwheel Main...
+; CLJS REPL ready to connect. Please, start your ClojureScript app.
+;   Open the app on this URL: http://localhost:9500
+;   The CLJS REPL will connect when your app is running.
+; Syntax error compiling at (src/frontend/ut_table/main.cljs:9:1).
+; No such namespace: js
+clj꞉frontend.ut-table.main꞉> 
+; Cljs builds started
+; Connected session: cljs, repl: :ut_table
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+cljs꞉user꞉> 
+; Jack-in done.
+cljs꞉user꞉> 
+nil
+cljs꞉frontend.ut-table.main꞉> 
+nil
+cljs꞉frontend.ut-table.main꞉> 
+nil
+cljs꞉frontend.ut-table.main꞉> 
+nil
+cljs꞉frontend.ut-table.main꞉> 
+nil
+cljs꞉frontend.ut-table.main꞉> 
+nil
+cljs꞉frontend.ut-table.main꞉> 
+#'frontend.ut-table.main/what-kind?
+
+cljs꞉frontend.ut-table.main꞉> 
+nil
+cljs꞉frontend.ut-table.main꞉> 
+nil
+cljs꞉frontend.ut-table.main꞉> 
+; Could not Read: Invalid symbol: http://localhost:9500.  line:1  column:32
+; class clojure.lang.ExceptionInfo
+cljs꞉frontend.ut-table.main꞉> 
+nil
+cljs꞉frontend.ut-table.main꞉> 
+(System/exit 1)
+clj꞉frontend.ut-table.main꞉> 
+(System/exit 1)
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn + Figwheel Main" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: (cd /home/hartmut/fjt/utdb; clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.5.1"},cider/cider-nrepl {:mvn/version,"0.58.0"},cider/piggieback {:mvn/version,"0.6.1"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware cider.piggieback/wrap-cljs-repl]")
+; Using host:port localhost:39033 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: deps.edn + Figwheel Main...
+; Starting cljs repl for: deps.edn + Figwheel Main...
+; CLJS REPL ready to connect. Please, start your ClojureScript app.
+;   Open the app on this URL: http://localhost:9500
+;   The CLJS REPL will connect when your app is running.
+; Cljs builds started
+; Connected session: cljs, repl: :ut_table
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+cljs꞉user꞉> 
+; Jack-in done.
+cljs꞉user꞉> 
+(System/exit 1)
+clj꞉user꞉> (System/exit 1)
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn + Figwheel Main" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: (cd /home/hartmut/fjt/utdb; clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.5.1"},cider/cider-nrepl {:mvn/version,"0.58.0"},cider/piggieback {:mvn/version,"0.6.1"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware cider.piggieback/wrap-cljs-repl]")
+; Using host:port localhost:35879 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: deps.edn + Figwheel Main...
+; Starting cljs repl for: deps.edn + Figwheel Main...
+; CLJS REPL ready to connect. Please, start your ClojureScript app.
+;   Open the app on this URL: http://localhost:9500
+;   The CLJS REPL will connect when your app is running.
+; Cljs builds started
+; Connected session: cljs, repl: :ut_table
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+cljs꞉user꞉> 
+; Jack-in done.
+cljs꞉user꞉> 
+clj꞉user꞉> 
+(System/exit 1)
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn + Figwheel Main" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: (cd /home/hartmut/fjt/utdb; clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.5.1"},cider/cider-nrepl {:mvn/version,"0.58.0"},cider/piggieback {:mvn/version,"0.6.1"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware cider.piggieback/wrap-cljs-repl]")
+; Using host:port localhost:36907 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: deps.edn + Figwheel Main...
+; Starting cljs repl for: deps.edn + Figwheel Main...
+; CLJS REPL ready to connect. Please, start your ClojureScript app.
+;   Open the app on this URL: http://localhost:9500
+;   The CLJS REPL will connect when your app is running.
